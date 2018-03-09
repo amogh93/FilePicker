@@ -1,5 +1,5 @@
 # FilePicker
-Android File Selection Library<br /><br />
+Android File Selection Library (Android API 21+)<br /><br />
 
 ## USAGE INSTRUCTIONS
 * Add jitpack repository to your root build.gradle file
