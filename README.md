@@ -44,3 +44,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data)
     }
 }
 ```
+
+## FEATURES
+* Auto permission check for storage
+* Multiple file selection
+* Select all button
