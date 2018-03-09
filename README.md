@@ -1,7 +1,7 @@
 # FilePicker
 Android File Selection Library<br /><br />
 
-## USAGE INSTRUCTIONS<br /><br/>
+## USAGE INSTRUCTIONS
 * Add jitpack repository to your root build.gradle file
 ```
 allprojects 
