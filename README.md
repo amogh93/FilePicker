@@ -20,4 +20,27 @@ dependencies
 	compile 'com.github.amogh93:FilePicker:2aa41268e6'
 }
 ```
-
+* Start FilePickerActivity
+```
+private static final int FILE_PICKER=41;
+startActivityForResult(new Intent(this,FilePickerActivity.class),FILE_PICKER);
+```
+* Get list of selected files
+```
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data)
+{
+    if (requestCode == FILE_PICKER)
+    {
+        if (resultCode == RESULT_OK)
+        {
+	    StringBuilder result=new StringBuilder();
+            HashMap<String,String> file_map=(HashMap)data.getSerializableExtra("fileMap");
+            for(Map.Entry m:file_map.entrySet())
+            {
+                result.append("File name: "+m.getKey()+", path: "+m.getValue()+"\n");
+            }
+	}
+    }
+}
+```
