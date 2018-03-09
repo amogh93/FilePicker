@@ -1,8 +1,8 @@
 # FilePicker
 Android File Selection Library<br /><br />
 
-##USAGE INSTRUCTIONS<br /><br/>
-*Add jitpack repository to your root build.gradle file
+## USAGE INSTRUCTIONS<br /><br/>
+* Add jitpack repository to your root build.gradle file
 ```
 allprojects 
 {
@@ -13,7 +13,7 @@ allprojects
 	}
 }
 ```
-*Add the dependency
+* Add the dependency
 ```
 dependencies 
 {
